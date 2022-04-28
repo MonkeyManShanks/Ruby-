@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ruby .unity
+    guid: d31ff79549a9d40a58fb9eb66c09650e
   m_configObjects: {}
