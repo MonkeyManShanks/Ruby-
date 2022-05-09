@@ -26,6 +26,8 @@ public class RubyController : MonoBehaviour
 
     AudioSource audioSource;
 
+    public AudioClip bulletSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -76,6 +78,7 @@ public class RubyController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.C))
         {
             Launch();
+            PlaySound(bulletSound);
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
